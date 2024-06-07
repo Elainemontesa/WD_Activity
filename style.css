@@ -1,110 +1,98 @@
-        *{       
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: black;
-            text-align: center;
-            }
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
-            #wrapper-div {
-                width: 80%;
-                margin: auto;
-                border: 3px solid rgb(5, 80, 99);
-                background-color: rgb(249,245,245);
-            }
+#wrapper-div{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(249,245,245);
+}
 
-            #top-div{
-                min-height: 50px;
-                background-color: skyblue;
-                padding-left: 2%;
-                padding-right: 2%;
-                display: flex;
-                align-items: center;
-                margin-bottom: 10px;
-            }
+#logo-nav-div{
+    width: 100%;
+    min-height: 0px;
+    display: flex;
+    align-items: center;
+    background-color: #009970;
+    margin-bottom: 10px;
+}
+#logo-div{
+    margin-top: 10px;
+    width: auto;
+    float: left;
+    line-height: 30px;
+    padding-left: 2%;
+}
+#nav-div{
+    flex: auto;
+    width: 50%;
+    min-height: 50px;
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    padding-right: 2%;
+    line-height: 50px;
+}
 
-            #main-div {
-                width: 100%;
-                margin-bottom: 10px;
-                font-weight: bold;
-            }
+#header-banner-div{
+    width: 100%;
+    min-height: 60px;
+    text-align: center;
+    background-color: #009970;
+    margin-bottom: 10px;
+    line-height: 50px;
+}
 
-            #logo-nav-div{
-                width: 100%;
-                min-height: 0px;
-                display: flex;
-                align-items: center;
-                background-color: skyblue;
-                margin-bottom: 10px;
-            }
-            #logo-div{
-                margin-top: 10px;
-                width: auto;
-                float: left;
-                line-height: 30px;
-                padding-left: 2%;
-            }
+#main-div {
+    width: 100%;
+    min-height: 470px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
 
-            #nav-div {
-                flex: auto;
-                width: 50%;
-                min-height: 50px;
-                font-size: 20px;
-                float: right;
-                text-align: right;
-                padding-right: 2%;
-                line-height: 50px;
-            }
+#sidebar-div {
+    width: 15%;
+    min-height: 470px;
+    background-color: #009970;
+    float: left;
+    line-height: 400px;
+}
 
-            #nav-div a {
-                margin: 0 10px;
-                text-decoration: none;
-                color: white; 
-            }
+#bodyarea-div {
+    width: 84.10%;
+    min-height: 470px;
+    background-color: #009970;
+    float: right;
+    line-height: 400px;
+}
 
-            #headerb-div{
-                width: 98%;
-                min-height: 100px;
-                padding-left: 2%;
-                line-height: 100px;
-                background-color: skyblue;
-                margin-bottom: 10px;
-            }
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: white;
+}
 
-            #main-div {
-                width: 100%;
-                min-height: 400px;
-                background-color: transparent;
-                margin-bottom: 10px;
-            }
- 
-            #sidebar-div {
-                width: 15%;
-                min-height: auto;
-                background-color: skyblue;
-                float: left;
-                line-height: 400px;
-                }
-    
-            #bodyarea-div {
-                width: 84.10%;
-                min-height: auto;
-                background-color: skyblue;
-                float: right;
-                line-height: 400px;
-                }
+#footer-div{
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-color: #009970;
+    justify-content: space-between;
+    line-height: 50px;
+    margin-bottom: 10px;
+    padding-right: 0 20px;
+}
 
-            .clearfix::after{
-                content: " ";
-                clear: both;
-                display: block;
-            }
-            #footer-div{
-                text-align: center;
-                width: 100%;
-                min-height: 50px;
-                line-height: 50px;
-                clear: both;
-                background-color: skyblue;
-            }
+#wrapper-div {
+    width: 100%;
+    background-color: white;
+    margin: auto;
+}
